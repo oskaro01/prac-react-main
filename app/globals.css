@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import "tailwindcss";
+
+html,
+body {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #1c1e21;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.lesson-card {
+  width: 100%;
+  max-width: 64rem;
+  overflow: hidden;
+  border: 1px solid #c9ccd1;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
+}
+
+.lesson-card > * + * {
+  border-top: 1px solid #e5e5e5;
+}
+
+.lesson-card > div,
+.lesson-notes {
+  padding: 12px 24px;
+}
+
+.lesson-card > div:first-child {
+  background: #f5f6f7;
+}
+
+.lesson-card h1,
+.lesson-card p {
+  margin: 0;
+}
+
+.lesson-card h1,
+.lesson-row-title {
+  color: #111111;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.lesson-card > div:first-child > p:first-child {
+  color: #3f5f9f;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.lesson-card h1 {
+  margin-top: 4px;
+}
+
+.lesson-card h1 + p,
+.lesson-card > div:not(:first-child) > p + p {
+  margin-top: 4px;
+  color: #8a8d91;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.lesson-card > div:not(:first-child) > p:first-child,
+.lesson-card label {
+  margin: 0;
+  color: #111111;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.lesson-muted {
+  margin-top: 4px;
+  color: #8a8d91;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.lesson-notes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.lesson-note {
+  border: 1px solid #dfe3e8;
+  border-radius: 4px;
+  background: #fafbfc;
+  padding: 12px 16px;
+}
+
+.lesson-note-title {
+  color: #111111;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.lesson-note-body {
+  margin-top: 4px;
+  color: #6b7078;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.lesson-input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: #111111;
+  font-size: 14px;
+  line-height: 20px;
+  outline: none;
+}
+
+.lesson-card input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.lesson-input:focus {
+  border-color: #3f5f9f;
+}
+
+.lesson-form-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.lesson-form-row .lesson-input {
+  min-width: 0;
+  flex: 1;
+}
+
+.lesson-button {
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #3f5f9f;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.lesson-button:hover {
+  background: #35538d;
+}
+
+@media (max-width: 760px) {
+  .lesson-notes,
+  .lesson-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .lesson-form-row {
+    flex-direction: column;
+  }
+}
