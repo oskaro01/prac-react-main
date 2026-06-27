@@ -15,6 +15,8 @@ const links = [
   { href: "/server-actions", label: "Step 12: Server Actions" },
   { href: "/design-system", label: "Step 13: Design System" },
   { href: "/typescript", label: "Step 14: TypeScript" },
+  { href: "/advanced-routing", label: "Step 15: Advanced Routing" },
+  { href: "/navigation-apis", label: "Step 16: Navigation APIs" },
 ];
 
 export default function Nav() {
