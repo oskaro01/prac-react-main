@@ -1,6 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 @import "tailwindcss";
 
+:root {
+  --ds-brand: #3f5f9f;
+  --ds-brand-hover: #334f88;
+  --ds-text: #111111;
+  --ds-muted: #6b7078;
+  --ds-border: #d1d5db;
+  --ds-success: #18794e;
+  --ds-danger: #b42318;
+  --ds-space-1: 4px;
+  --ds-space-2: 8px;
+  --ds-space-3: 12px;
+  --ds-space-4: 16px;
+  --ds-space-6: 24px;
+  --ds-radius: 4px;
+}
+
 html,
 body {
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -24,6 +40,118 @@ input,
 textarea,
 select {
   font: inherit;
+}
+
+.ds-button {
+  min-height: 36px;
+  border: 1px solid transparent;
+  border-radius: var(--ds-radius);
+  padding: var(--ds-space-2) var(--ds-space-4);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.ds-button:focus-visible,
+.ds-input:focus-visible {
+  outline: 2px solid var(--ds-brand);
+  outline-offset: 2px;
+}
+
+.ds-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.ds-button-primary {
+  background: var(--ds-brand);
+  color: #ffffff;
+}
+
+.ds-button-primary:hover {
+  background: var(--ds-brand-hover);
+}
+
+.ds-button-secondary {
+  border-color: var(--ds-border);
+  background: #ffffff;
+  color: var(--ds-text);
+}
+
+.ds-button-secondary:hover {
+  background: #f5f6f7;
+}
+
+.ds-button-danger {
+  border-color: var(--ds-danger);
+  background: #ffffff;
+  color: var(--ds-danger);
+}
+
+.ds-button-danger:hover {
+  background: #fff5f4;
+}
+
+.ds-field {
+  display: grid;
+  gap: var(--ds-space-1);
+}
+
+.ds-label {
+  color: var(--ds-text);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.ds-input {
+  width: 100%;
+  min-height: 36px;
+  border: 1px solid var(--ds-border);
+  border-radius: var(--ds-radius);
+  background: #ffffff;
+  padding: var(--ds-space-2) var(--ds-space-3);
+  color: var(--ds-text);
+  font-size: 14px;
+  line-height: 18px;
+  outline: none;
+}
+
+.ds-help {
+  color: var(--ds-muted);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.ds-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  border: 1px solid transparent;
+  border-radius: var(--ds-radius);
+  padding: var(--ds-space-1) var(--ds-space-2);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.ds-badge-neutral {
+  border-color: #d1d5db;
+  background: #f5f6f7;
+  color: var(--ds-text);
+}
+
+.ds-badge-success {
+  border-color: #a7d7c5;
+  background: #f0faf6;
+  color: var(--ds-success);
+}
+
+.ds-badge-danger {
+  border-color: #efb4ad;
+  background: #fff5f4;
+  color: var(--ds-danger);
 }
 
 .lesson-card {

@@ -13,6 +13,7 @@ const links = [
   { href: "/route-states", label: "Step 10: Route States" },
   { href: "/route-handlers", label: "Step 11: Route Handlers" },
   { href: "/server-actions", label: "Step 12: Server Actions" },
+  { href: "/design-system", label: "Step 13: Design System" },
 ];
 
 export default function Nav() {
