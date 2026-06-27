@@ -11,6 +11,8 @@ const links = [
   { href: "/data-fetching", label: "Step 8: Server Data" },
   { href: "/dynamic-routes", label: "Step 9: Dynamic Routes" },
   { href: "/route-states", label: "Step 10: Route States" },
+  { href: "/route-handlers", label: "Step 11: Route Handlers" },
+  { href: "/server-actions", label: "Step 12: Server Actions" },
 ];
 
 export default function Nav() {
