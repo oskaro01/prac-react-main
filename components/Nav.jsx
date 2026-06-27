@@ -8,6 +8,7 @@ const links = [
   { href: "/api-fetch", label: "Step 5: useEffect + API" },
   { href: "/app-router", label: "Step 6: App Router" },
   { href: "/server-client", label: "Step 7: Server vs Client" },
+  { href: "/data-fetching", label: "Step 8: Server Data" },
 ];
 
 export default function Nav() {
