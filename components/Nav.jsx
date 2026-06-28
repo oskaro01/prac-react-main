@@ -17,6 +17,7 @@ const links = [
   { href: "/typescript", label: "Step 14: TypeScript" },
   { href: "/advanced-routing", label: "Step 15: Advanced Routing" },
   { href: "/navigation-apis", label: "Step 16: Navigation APIs" },
+  { href: "/form-validation", label: "Step 17: Form Validation" },
 ];
 
 export default function Nav() {
