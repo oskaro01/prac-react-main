@@ -21,6 +21,7 @@ const links = [
   { href: "/database-crud", label: "Step 18: Database CRUD" },
   { href: "/caching-revalidation", label: "Step 19: Caching" },
   { href: "/streaming-suspense", label: "Step 20: Streaming" },
+  { href: "/auth", label: "Step 21: Auth" },
 ];
 
 export default function Nav() {
