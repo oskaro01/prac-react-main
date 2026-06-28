@@ -19,6 +19,7 @@ const links = [
   { href: "/navigation-apis", label: "Step 16: Navigation APIs" },
   { href: "/form-validation", label: "Step 17: Form Validation" },
   { href: "/database-crud", label: "Step 18: Database CRUD" },
+  { href: "/caching-revalidation", label: "Step 19: Caching" },
 ];
 
 export default function Nav() {
