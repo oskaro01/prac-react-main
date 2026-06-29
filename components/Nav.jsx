@@ -23,6 +23,16 @@ const links = [
   { href: "/streaming-suspense", label: "Step 20: Streaming" },
   { href: "/auth", label: "Step 21: Auth" },
   { href: "/middleware-lab", label: "Step 22: Middleware / Proxy" },
+  { href: "/metadata-seo", label: "Step 23: Metadata + SEO" },
+  { href: "/images-fonts-scripts", label: "Step 24: Images + Fonts" },
+  { href: "/environment-security", label: "Step 25: Env + Security" },
+  { href: "/testing", label: "Step 26: Testing" },
+  { href: "/performance-monitoring", label: "Step 27: Performance" },
+  { href: "/accessibility-responsive", label: "Step 28: Accessibility" },
+  { href: "/deployment-ci", label: "Step 29: Deployment" },
+  { href: "/upgrading-next", label: "Step 30: Upgrading" },
+  { href: "/production-capstone", label: "Step 31: Capstone" },
+  { href: "/frontend-design", label: "Step 32: Frontend Design" },
 ];
 
 export default function Nav() {

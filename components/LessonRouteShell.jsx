@@ -1,0 +1,10 @@
+import Nav from "./Nav";
+
+export default function LessonRouteShell({ children }) {
+  return (
+    <div className="min-h-screen bg-[#d9dde3] pb-8">
+      <Nav />
+      <main className="mx-auto w-full max-w-6xl px-6 py-6">{children}</main>
+    </div>
+  );
+}

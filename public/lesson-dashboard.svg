@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Compact dashboard preview</title>
+  <desc id="desc">A simple dashboard layout with navigation, summary metrics, and list rows.</desc>
+  <rect width="900" height="360" fill="#f5f6f7"/>
+  <rect x="24" y="24" width="852" height="312" rx="8" fill="#ffffff" stroke="#c9ccd1"/>
+  <rect x="24" y="24" width="852" height="54" rx="8" fill="#3f5f9f"/>
+  <text x="48" y="59" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">Next.js Dashboard</text>
+  <rect x="48" y="108" width="180" height="72" rx="4" fill="#fafbfc" stroke="#dfe3e8"/>
+  <rect x="252" y="108" width="180" height="72" rx="4" fill="#fafbfc" stroke="#dfe3e8"/>
+  <rect x="456" y="108" width="180" height="72" rx="4" fill="#fafbfc" stroke="#dfe3e8"/>
+  <rect x="660" y="108" width="168" height="72" rx="4" fill="#fafbfc" stroke="#dfe3e8"/>
+  <text x="68" y="139" fill="#6b7078" font-family="Arial, sans-serif" font-size="13" font-weight="700">Revenue</text>
+  <text x="68" y="164" fill="#111111" font-family="Arial, sans-serif" font-size="28" font-weight="700">$24k</text>
+  <text x="272" y="139" fill="#6b7078" font-family="Arial, sans-serif" font-size="13" font-weight="700">Orders</text>
+  <text x="272" y="164" fill="#111111" font-family="Arial, sans-serif" font-size="28" font-weight="700">418</text>
+  <text x="476" y="139" fill="#6b7078" font-family="Arial, sans-serif" font-size="13" font-weight="700">Visitors</text>
+  <text x="476" y="164" fill="#111111" font-family="Arial, sans-serif" font-size="28" font-weight="700">9.8k</text>
+  <text x="680" y="139" fill="#6b7078" font-family="Arial, sans-serif" font-size="13" font-weight="700">Uptime</text>
+  <text x="680" y="164" fill="#111111" font-family="Arial, sans-serif" font-size="28" font-weight="700">99.9%</text>
+  <rect x="48" y="208" width="780" height="34" rx="4" fill="#ffffff" stroke="#dfe3e8"/>
+  <rect x="48" y="254" width="780" height="34" rx="4" fill="#ffffff" stroke="#dfe3e8"/>
+  <rect x="48" y="300" width="780" height="22" rx="4" fill="#ffffff" stroke="#dfe3e8"/>
+  <rect x="68" y="220" width="172" height="10" rx="5" fill="#3f5f9f"/>
+  <rect x="68" y="266" width="224" height="10" rx="5" fill="#3f5f9f"/>
+  <rect x="680" y="219" width="90" height="12" rx="6" fill="#a7d7c5"/>
+  <rect x="680" y="265" width="90" height="12" rx="6" fill="#e1bd69"/>
+</svg>
