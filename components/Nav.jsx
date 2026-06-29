@@ -22,6 +22,7 @@ const links = [
   { href: "/caching-revalidation", label: "Step 19: Caching" },
   { href: "/streaming-suspense", label: "Step 20: Streaming" },
   { href: "/auth", label: "Step 21: Auth" },
+  { href: "/middleware-lab", label: "Step 22: Middleware / Proxy" },
 ];
 
 export default function Nav() {
